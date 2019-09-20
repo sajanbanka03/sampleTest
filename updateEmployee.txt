@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:InputElement xmlns:wd="urn:com.workday/bsvc" xmlns:tns="http://www.tibco.com/xml/render/example">
+    <wd:Employee_Personal_Info xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" wd:version="v26.0" wd:As_Of_Moment="2018-04-11T04:01:54.843-07:00" wd:As_Of_Date="2018-04-11-07:00">
+        <wd:Employee_Reference>
+            <wd:Integration_ID_Reference wd:Descriptor="Ben Adams">
+                <wd:ID wd:System_ID="WD-I">247$110</wd:ID>
+            </wd:Integration_ID_Reference>
+        </wd:Employee_Reference>
+        <wd:Employee_Personal_Info_Data>
+            <wd:External_Integration_ID_Data>
+                <wd:ID wd:System_ID="WD-I">247$110</wd:ID>
+                <wd:ID wd:System_ID="WD-EMPLID">21118</wd:ID>
+                <wd:ID wd:System_ID="WD-WID">f1c74d87428b479cb85daab73582d439</wd:ID>
+            </wd:External_Integration_ID_Data>
+            <wd:Personal_Info_Data>
+                <wd:Business_Title>Shipping &amp; Receiving Associate</wd:Business_Title>
+                <wd:Person_Data>
+                    <wd:Name_Data wd:Is_Legal="true" wd:Last_Modified="2008-03-24T00:00:00-07:00" wd:Is_Preferred="false" wd:Effective_Date="2008-03-24-07:00">
+                        <wd:Country_Reference>
+                            <wd:Country_ISO_Code>USA</wd:Country_ISO_Code>
+                        </wd:Country_Reference>
+                        <wd:First_Name>Ben</wd:First_Name>
+                        <wd:Last_Name wd:Type="Primary">Adams</wd:Last_Name>
+                    </wd:Name_Data>
+                    <wd:Contact_Data>
+                        <wd:Internet_Email_Address_Data>
+                            <wd:Email_Address>badams@workday.net</wd:Email_Address>
+                            <wd:Usage_Data wd:Public="true">
+                                <wd:Type_Reference wd:Primary="true">Work</wd:Type_Reference>
+                            </wd:Usage_Data>
+                        </wd:Internet_Email_Address_Data>
+                        <wd:Phone_Number_Data>
+                            <wd:Country_ISO_Code>USA</wd:Country_ISO_Code>
+                            <wd:International_Phone_Code>1</wd:International_Phone_Code>
+                            <wd:Phone_Number>635-0422</wd:Phone_Number>
+                            <wd:Phone_Device_Type_Reference>
+                                <wd:Phone_Device_Type_Description>Landline</wd:Phone_Device_Type_Description>
+                            </wd:Phone_Device_Type_Reference>
+                            <wd:Usage_Data wd:Public="false">
+                                <wd:Type_Reference wd:Primary="true">Home</wd:Type_Reference>
+                            </wd:Usage_Data>
+                        </wd:Phone_Number_Data>
+                        <wd:Address_Data wd:Last_Modified="2009-01-25T18:43:41.707-08:00" wd:Effective_Date="2008-02-03-08:00">
+                            <wd:Country_Reference>
+                                <wd:Country_ISO_Code>USA</wd:Country_ISO_Code>
+                            </wd:Country_Reference>
+                            <wd:Address_Line wd:Descriptor="Address Line 1" wd:Type="ADDRESS_LINE_1">3022 Warm Springs Road</wd:Address_Line>
+                            <wd:Municipality>Glen Ellen</wd:Municipality>
+                            <wd:Region>California</wd:Region>
+                            <wd:Postal_Code>95442</wd:Postal_Code>
+                            <wd:Usage_Data wd:Public="false">
+                                <wd:Type_Reference wd:Primary="true">Home</wd:Type_Reference>
+                                <wd:Use_For_Reference>Mailing</wd:Use_For_Reference>
+                                <wd:Use_For_Reference>Street Address</wd:Use_For_Reference>
+                            </wd:Usage_Data>
+                        </wd:Address_Data>
+                        <wd:Address_Data wd:Last_Modified="2011-06-20T13:54:02.023-07:00" wd:Effective_Date="2000-01-01-08:00">
+                            <wd:Country_Reference>
+                                <wd:Country_ISO_Code>USA</wd:Country_ISO_Code>
+                            </wd:Country_Reference>
+                            <wd:Address_Line wd:Descriptor="Address Line 1" wd:Type="ADDRESS_LINE_1">3939 The Embarcadero</wd:Address_Line>
+                            <wd:Municipality>San Francisco</wd:Municipality>
+                            <wd:Region>California</wd:Region>
+                            <wd:Postal_Code>94111</wd:Postal_Code>
+                            <wd:Usage_Data wd:Public="true">
+                                <wd:Type_Reference wd:Primary="true">Work</wd:Type_Reference>
+                            </wd:Usage_Data>
+                        </wd:Address_Data>
+                        <wd:Instant_Messenger_Data>
+                            <wd:Instant_Messenger_Address>badams</wd:Instant_Messenger_Address>
+                            <wd:Instant_Messenger_Type_Reference>
+                                <wd:Instant_Messenger_Provider>Yahoo</wd:Instant_Messenger_Provider>
+                            </wd:Instant_Messenger_Type_Reference>
+                            <wd:Usage_Data wd:Public="true">
+                                <wd:Type_Reference wd:Primary="true">Home</wd:Type_Reference>
+                            </wd:Usage_Data>
+                        </wd:Instant_Messenger_Data>
+                    </wd:Contact_Data>
+                    <wd:Demographic_Data>
+                        <wd:Marital_Status_Reference>
+                            <wd:Marital_Status_Description>Divorced</wd:Marital_Status_Description>
+                        </wd:Marital_Status_Reference>
+                        <wd:Hispanic_or_Latino>false</wd:Hispanic_or_Latino>
+                        <wd:Ethnicity_Reference>
+                            <wd:Ethnicity_Name>White</wd:Ethnicity_Name>
+                            <wd:Regulatory_Region_Organization_Reference>
+                                <wd:Integration_ID_Reference wd:Descriptor="United States">
+                                    <wd:ID wd:System_ID="WD-I">2505$116</wd:ID>
+                                </wd:Integration_ID_Reference>
+                            </wd:Regulatory_Region_Organization_Reference>
+                        </wd:Ethnicity_Reference>
+                        <wd:Citizenship_Status_Reference>
+                            <wd:Citizenship_Status_Description>Citizen</wd:Citizenship_Status_Description>
+                            <wd:Country_Reference>
+                                <wd:Country_ISO_Code>USA</wd:Country_ISO_Code>
+                            </wd:Country_Reference>
+                        </wd:Citizenship_Status_Reference>
+                        <wd:Military_Service_Data>
+                            <wd:Military_Status_Reference>
+                                <wd:Military_Status_Name>5 - Reserve</wd:Military_Status_Name>
+                                <wd:Country_Reference>
+                                    <wd:Country_ISO_Code>USA</wd:Country_ISO_Code>
+                                </wd:Country_Reference>
+                            </wd:Military_Status_Reference>
+                        </wd:Military_Service_Data>
+                    </wd:Demographic_Data>
+                    <wd:Biographic_Data>
+                        <wd:Date_Of_Birth>1980-06-30-07:00</wd:Date_Of_Birth>
+                        <wd:Gender_Reference>
+                            <wd:Gender_Description>Male</wd:Gender_Description>
+                        </wd:Gender_Reference>
+                        <wd:Uses_Tobacco>false</wd:Uses_Tobacco>
+                    </wd:Biographic_Data>
+                    <wd:Custom_ID_Data>
+                        <wd:Custom_ID>A01247</wd:Custom_ID>
+                        <wd:Custom_ID_Type_Reference>
+                            <wd:Custom_ID_Type_Name>Applicant ID</wd:Custom_ID_Type_Name>
+                        </wd:Custom_ID_Type_Reference>
+                    </wd:Custom_ID_Data>
+                    <wd:Custom_ID_Data>
+                        <wd:Custom_ID>21118</wd:Custom_ID>
+                        <wd:Custom_ID_Type_Reference>
+                            <wd:Custom_ID_Type_Name>Person ID</wd:Custom_ID_Type_Name>
+                        </wd:Custom_ID_Type_Reference>
+                    </wd:Custom_ID_Data>
+                    <wd:Government_ID_Data>
+                        <wd:Government_ID>018534938</wd:Government_ID>
+                        <wd:Government_ID_Type_Reference>
+                            <wd:Government_ID_Type_Name>SSN (Social Security Number)</wd:Government_ID_Type_Name>
+                        </wd:Government_ID_Type_Reference>
+                        <wd:Country_Reference>
+                            <wd:Country_ISO_Code>USA</wd:Country_ISO_Code>
+                        </wd:Country_Reference>
+                        <wd:Verification_Date>2000-01-01-08:00</wd:Verification_Date>
+                    </wd:Government_ID_Data>
+                    <wd:License_ID_Data>
+                        <wd:License_ID>C7320403</wd:License_ID>
+                        <wd:License_Type_Reference>
+                            <wd:License_Type_Name>Driver's</wd:License_Type_Name>
+                        </wd:License_Type_Reference>
+                        <wd:Issued_Date>2005-03-29-08:00</wd:Issued_Date>
+                        <wd:Expiration_Date>2010-03-29-07:00</wd:Expiration_Date>
+                        <wd:Verification_Date>2006-01-01-08:00</wd:Verification_Date>
+                        <wd:Authority_Reference>
+                            <wd:Authority_Name>California Department of Motor Vehicles</wd:Authority_Name>
+                            <wd:Regulatory_Region_Organization_Reference>
+                                <wd:Integration_ID_Reference wd:Descriptor="United States">
+                                    <wd:ID wd:System_ID="WD-I">2505$116</wd:ID>
+                                </wd:Integration_ID_Reference>
+                            </wd:Regulatory_Region_Organization_Reference>
+                        </wd:Authority_Reference>
+                    </wd:License_ID_Data>
+                    <wd:Passport_ID_Data>
+                        <wd:Passport_Number>213043065</wd:Passport_Number>
+                        <wd:Passport_Type_Reference>
+                            <wd:Passport_Type_Name>Standard</wd:Passport_Type_Name>
+                        </wd:Passport_Type_Reference>
+                        <wd:Country_Reference>
+                            <wd:Country_ISO_Code>USA</wd:Country_ISO_Code>
+                        </wd:Country_Reference>
+                        <wd:Issued_Date>2004-04-15-07:00</wd:Issued_Date>
+                        <wd:Expiration_Date>2014-04-15-07:00</wd:Expiration_Date>
+                        <wd:Verification_Date>2005-01-01-08:00</wd:Verification_Date>
+                    </wd:Passport_ID_Data>
+                </wd:Person_Data>
+            </wd:Personal_Info_Data>
+        </wd:Employee_Personal_Info_Data>
+    </wd:Employee_Personal_Info>
+</tns:InputElement>
